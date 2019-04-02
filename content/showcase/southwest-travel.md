@@ -1,7 +1,7 @@
 ---
 title: "Southwest Road Trip"
 date: 2019-04-01T22:20:17-04:00
-draft: true
+draft: false
 tags:
 - videography
 - travel

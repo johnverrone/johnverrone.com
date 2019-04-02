@@ -1,7 +1,7 @@
 ---
 title: "The New John Verrone Website"
 date: 2019-04-01T21:59:26-04:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
