@@ -9,7 +9,7 @@ theme = "hello-friend-ng"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   homeTitle = "john.verrone"
-  homeSubtitle = "freelance web developer, photographer, and videographer"
+  homeSubtitle = "full time developer. photo/video hobbyist."
 
   # Metadata mostly used in document's head
   description = "Web Development | Photo/Video"
