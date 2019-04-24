@@ -40,7 +40,7 @@ theme = "hello-friend-ng"
 [languages]
   [languages.en]
     title = "John Verrone"
-    subtitle = "Freelance web developer, photographer, and videographer"
+    subtitle = "full time developer. photo/video hobbyist."
     keywords = ""
     copyright = ""
     readOtherPosts = "Read other posts"
