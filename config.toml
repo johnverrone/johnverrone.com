@@ -2,13 +2,16 @@ baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
+[author]
+  name = "John Verrone"
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
-  homeTitle = "john.verrone"
+  homeTitle = "john verrone"
   homeSubtitle = "full time developer. photo/video hobbyist."
 
   # Metadata mostly used in document's head
