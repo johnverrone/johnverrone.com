@@ -1,6 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
+pluralizeListTitles = "false"
 
 [author]
   name = "John Verrone"
@@ -60,7 +61,6 @@ theme = "hello-friend-ng"
     # path = "/img/your-example-logo.svg"
     # alt = "Your example logo alt text"
 
-# And you can even create generic menu
 [menu]
   [[menu.main]]
     identifier = "about"
