@@ -6,6 +6,10 @@ theme = "hello-friend-ng"
   name = "John Verrone"
 
 [params]
+
+  customCSS = ["/css/verrone.css"]
+  googleFonts = ["Open Sans"]
+
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"

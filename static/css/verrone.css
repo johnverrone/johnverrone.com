@@ -1,0 +1,17 @@
+body {
+  font-family: "Open Sans"
+}
+
+#home-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home-title {
+  margin: 0;
+  text-align: center;
+}
+
+

@@ -14,7 +14,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', 'Inter UI', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  Helvetica, Arial, sans-serif;
+  font-family: 'Inter UI', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.54;
   background-color: $light-background;
@@ -300,28 +300,3 @@ hr {
 	width: auto;
 	z-index: 100000;
 }
-
-#home-center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#home-title {
-  margin: 0;
-  text-align: center;
-}
-
-#home-subtitle {
-}
-
-// #home-social {
-//   font-size: 1.4em;
-//   text-align: center;
-//   opacity: .8;
-//
-//   a {
-//     margin: 0 .2em;
-//   }
-// }
