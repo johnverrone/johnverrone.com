@@ -2,6 +2,14 @@ body {
   font-family: "Open Sans"
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 #home-center {
   display: flex;
   flex-direction: column;
@@ -14,4 +22,7 @@ body {
   text-align: center;
 }
 
-
+.footer__content {
+  font-size: .7rem;
+  color: #666;
+}
