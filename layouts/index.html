@@ -1,17 +1,31 @@
-{{ define "main" }}
-    <main aria-role="main">
-        <div id="home-center">
-            <h1 id="home-title">{{ .Site.Params.homeTitle }}</h1>
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
 
-            {{- with .Site.Params.homeSubtitle }}
-                <p>{{.}}</p>
-            {{- end }}
+    <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}">
+        <div id="home-container" class="container">
+            {{ partial "header.html" . }}
 
-            {{- with .Site.Params.social }}
-                <div>
-                    {{ partial "social-icons.html" . }}
-                </div>
-            {{- end }}
+            <div id="home-content" class="content">
+                <main aria-role="main">
+                    <div id="home-center">
+                        <h1 id="home-title">{{ .Site.Params.homeTitle }}</h1>
+
+                        {{- with .Site.Params.homeSubtitle }}
+                        <p>{{.}}</p>
+                        {{- end }}
+
+                        {{- with .Site.Params.social }}
+                        <div>
+                            {{ partial "social-icons.html" . }}
+                        </div>
+                        {{- end }}
+                    </div>
+                </main>
+            </div>
         </div>
-    </main>
-{{ end }}
+        {{ partial "javascript.html" . }}
+    </body>
+</html>
