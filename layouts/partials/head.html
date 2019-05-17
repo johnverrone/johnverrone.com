@@ -33,6 +33,13 @@
 {{ end }}
 {{ end }}
 
+<!-- Fonts -->
+{{ range $val := $.Site.Params.googleFonts }}
+{{ if gt (len $val) 0 }}
+<link href="https://fonts.googleapis.com/css?family={{ $val }}" rel="stylesheet">
+{{ end }}
+{{ end }}
+
 <!-- Icons -->
 {{- partial "favicons.html" }}
 
@@ -59,3 +66,4 @@
 {{- if templates.Exists "partials/extra-head.html" -}}
 {{ partial "extra-head.html" . }}
 {{- end }}
+
