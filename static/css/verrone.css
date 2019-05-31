@@ -18,7 +18,7 @@ a:hover {
 
 #home-content {
   align-items: flex-end;
-  margin-right: 15%;
+  margin-right: 25%;
 }
 
 @media (max-width: 684px) {
@@ -44,6 +44,7 @@ a:hover {
 
 .menu {
   background: none;
+  border-right: none;
 }
 
 #home-center {
