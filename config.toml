@@ -74,3 +74,7 @@ pluralizeListTitles = "false"
     identifier = "projects"
     name       = "projects"
     url        = "/projects"
+  [[menu.main]]
+    identifier = "resume"
+    name       = "resume"
+    url        = "/resume.pdf"
