@@ -5,9 +5,8 @@
     </head>
 
     <body class="{{ if ne $.Site.Params.defaultTheme "light" -}} dark-theme {{- end -}}">
-        <div id="home-container" class="container">
-            {{ partial "header.html" . }}
-
+        {{ partial "header.html" . }}
+        <section id="home-container" class="container">
             <div id="home-content" class="content">
                 <main aria-role="main">
                     <div id="home-center">
@@ -25,7 +24,7 @@
                     </div>
                 </main>
             </div>
-        </div>
+        </section>
         {{ partial "javascript.html" . }}
     </body>
 </html>
