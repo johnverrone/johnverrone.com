@@ -54,18 +54,14 @@ pluralizeListTitles = "false"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "john verrone"
-      logoHomeLink = "/"
+    #  logoText = "john verrone"
+    #  logoHomeLink = "/"
     # or
     #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+    path = "/images/john_sig.png"
+    alt = "john verrone"
 
 [menu]
-  [[menu.main]]
-    identifier = "about"
-    name       = "about"
-    url        = "/about"
   [[menu.main]]
     identifier = "blog"
     name       = "blog"
